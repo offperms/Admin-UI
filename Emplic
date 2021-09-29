@@ -18,12 +18,14 @@ local Window = Library.CreateLib("Vibe hugs | Admin UI", "Ocean")
 -- tabs
 local Tab = Window:NewTab("Main")
 local Tps = Window:NewTab("Tps")
+local Trolling = Window:NewTab("Trolling")
 local ExploitSupport = Window:NewTab("Exploit Support")
 local howtouse = Window:NewTab("How to use?")
 local Settings = Window:NewTab("Settings")
 
 --sections
 local TpsSection = Tps:NewSection("Tps")
+local TrollingSection = Trolling:NewSection("!:)Trolling:)!")
 local SupportTabSection = ExploitSupport:NewSection("We Support Fluxus Krnl, :")
 local howtouseSection = howtouse:NewSection("How to use vibe hugs admin ui? :")
 local MainSection = Tab:NewSection("please read howtouse tab before using the script.")
@@ -61,8 +63,178 @@ howtouseSection:NewLabel("also, if your in a old server, you cant use this UI. "
 howtouseSection:NewLabel("Why?, well because vibe hugs removed alot of cmds.")
 howtouseSection:NewLabel("It will only work in the new servers.")
 -- end how to use??
+-- Trolling
+TrollingSection:NewToggle("become cnp", "geheheh", function(state)
+    if state then
+       local args = {
+    [1] = ";char me Coco30395"
+}
+
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    else
+      local args = {
+    [1] = ";re me"
+}
+
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    end
+end)
+
+TrollingSection:NewToggle("become UWU sussy girl", "geheheh", function(state)
+    if state then
+       local args = {
+    [1] = ";char me UwU99657"
+}
+
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    else
+      local args = {
+    [1] = ";re me"
+}
+
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    end
+end)
+
+TrollingSection:NewToggle("become a kys fan girl lmao", "geheheh", function(state)
+    if state then
+       local args = {
+    [1] = ";char me KyasFanGirl"
+}
+
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    else
+      local args = {
+    [1] = ";re me"
+}
+
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    end
+end)
+
+TrollingSection:NewToggle("be emo kid", "geheheh", function(state)
+    if state then
+       local args = {
+    [1] = ";char me EmoGG"
+}
+
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    else
+      local args = {
+    [1] = ";re me"
+}
+
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    end
+end)
+
+TrollingSection:NewToggle("be rich boy", "geheheh", function(state)
+    if state then
+       local args = {
+    [1] = ";char me OffPerms"
+}
+
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    else
+      local args = {
+    [1] = ";re me"
+}
+
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    end
+end)
+
+TrollingSection:NewToggle("be rich girl", "geheheh", function(state)
+    if state then
+       local args = {
+    [1] = ";char me cxsmicityy"
+}
+
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    else
+      local args = {
+    [1] = ";re me"
+}
+
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    end
+end)
+
+TrollingSection:NewToggle("become a black nig-", "geheheh", function(state)
+    if state then
+       local args = {
+    [1] = ";char me 7ydw"
+}
+
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    else
+      local args = {
+    [1] = ";re me"
+}
+
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    end
+end)
+
+TrollingSection:NewToggle("become 😑", "geheheh", function(state)
+    if state then
+       local args = {
+    [1] = ";hat me 5269023723"
+}
+
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+   local args = {
+    [1] = ";shirt me 6529457869"
+}
+
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+   local args = {
+    [1] = ";pants me 5167329088"
+}
+
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    else
+      local args = {
+    [1] = ";re me"
+}
+
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    end
+end)
+
+TrollingSection:NewToggle("troll", "geheheh", function(state)
+    if state then
+       
+   
+   local args = {
+    [1] = ";hat me 64446449"
+}
+
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+
+ local args = {
+    [1] = ";pants me  me 6320993899"
+}
+
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+
+ local args = {
+    [1] = ";shirt me 6320991123"
+}
+
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+
+    else
+      local args = {
+    [1] = ";re me"
+}
+
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    end
+end)
 
 
+--endtrolling
 
 -- main ||||
 MainSection:NewButton("Rejoin", "Rejoin the place.", function()

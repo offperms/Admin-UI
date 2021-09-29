@@ -56,6 +56,7 @@ SupportTabSection:NewButton("Copy Emplic's discord.", "Copys the supporter's Dis
 
 -- How to use
 howtouseSection:NewLabel("First u want the prefix to be ; ")
+howtouseSection:NewLabel("!!!!BTW SCRIPTS MIGHT BE PATCHED !!!!")
 howtouseSection:NewLabel("also, if your in a old server, you cant use this UI. ")
 howtouseSection:NewLabel("Why?, well because vibe hugs removed alot of cmds.")
 howtouseSection:NewLabel("It will only work in the new servers.")
